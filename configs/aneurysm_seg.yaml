@@ -1,0 +1,9 @@
+train:
+  epochs: 100
+  batch_size: 2
+  train_file: "raws/train_data.json"
+  valid_file: "raws/valid_data.json"
+
+inference:
+  batch_size: 2
+  test_file: "raws/test_data.json"
